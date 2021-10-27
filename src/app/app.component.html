@@ -1,14 +1,19 @@
 <div>
   <div>
-    <app-selectornumerico minimo="1" maximo="10" #selector1></app-selectornumerico><br>
-    <button (click)="fijarSelector1(1)">Fijar en 1</button><br>
-    <button (click)="fijarSelector1(5)">Fijar en 5</button><br>
-    <button (click)="fijarSelector1(10)">Fijar en 10</button><br>
+    <h1 style="text-align: center;">Comidas Rapidas</h1>
   </div>
-  <div>
+  <div class="c-uno">
+    <button (click)="fijarSelector1(1)">Fijar en 1</button>
+    <button (click)="fijarSelector1(5)">Fijar en 5</button>
+    <button (click)="fijarSelector1(10)">Fijar en 10</button><br>
+    <app-selectornumerico minimo="1" maximo="10" #selector1></app-selectornumerico><br>
+    <h2>Hamburguesas</h2>
+  </div>
+  <div class="c-dos">
+    <h2>Refrescos</h2>
     <app-selectornumerico minimo="1" maximo="10" #selector2></app-selectornumerico><br>
-    <button (click)="fijarSelector2(1)">Fijar en 1</button><br>
-    <button (click)="fijarSelector2(5)">Fijar en 5</button><br>
-    <button (click)="fijarSelector2(10)">Fijar en 10</button><br>
+    <button (click)="fijarSelector2(1)">Fijar en 1</button>
+    <button (click)="fijarSelector2(5)">Fijar en 5</button>
+    <button (click)="fijarSelector2(10)">Fijar en 10</button>
   </div>
 </div>
